@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    body {
+      margin: 0;
+      background: url('campus.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+    }
+    .login-box {
+      background: rgba(255,255,255,0.8);
+      width: 300px;
+      padding: 20px;
+      border-radius: 8px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    input, button {
+      width: 100%;
+      margin: 8px 0;
+      padding: 10px;
+    }
+    button {
+      background: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h3>Already have an account?</h3>
+    <input type="text" placeholder="USERNAME">
+    <input type="password" placeholder="PASSWORD">
+    <div>
+      <input type="checkbox" id="remember">
+      <label for="remember">remember username</label>
+    </div>
+    <button>login</button>
+    <p><a href="#">Forgotten your username or password?</a></p>
+  </div>
+</body>
+</html>
